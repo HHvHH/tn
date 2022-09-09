@@ -1,62 +1,66 @@
 {
   "name": "No Name",
-  "description": "When you install this project, you will become the owner, without any rights",
+  "description": "This site is completely free and free of rights",
   "logo": "",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/clipesr/e",
+  "repository": "https://github.com/clipesr/clipesr",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "Your Name",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك", 
+      "description": "Your App Id", 
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
+      "description": "Your App Hash",
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمه",
+      "description": "skip 🥱",
       "value": "ANYTHING"
     },
+    "COMMAND_HAND_LER": {
+      "description": "skip 🥱",
+      "value": "."
+    },
     "STRING_SESSION": {
-      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
+      "description": "Your Termex Code",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
+      "description": "Your Bot User without",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "description": "Your Bot Token",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "description": "Your Api Key",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق",
+      "description": "Your App Name",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "description": "Skip 🥱",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "رمز السورس لا تغيره ابدا",
-      "value": "NO_NAME",
+      "description": "Skip 🥱",
+      "value": "No_Name",
       "required": false
     }
   },
@@ -79,6 +83,9 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
