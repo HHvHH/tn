@@ -1,13 +1,13 @@
 {
-  "name": "No Name",
+  "name": "ريثون",
   "description": "This site is completely free and free of rights",
-  "logo": "https://telegra.ph/file/d841fe31e7f9772d7c65a.jpg",
+  "logo": "https://telegra.ph/file/c8670dda3dfd70d763e14.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/clipesr/clipesr",
+  "repository": "https://github.com/HHvHH/tn",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -60,7 +60,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Skip 🥱",
-      "value": "No_Name",
+      "value": "rethon",
       "required": false
     }
   },
